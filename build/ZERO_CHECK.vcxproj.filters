@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\IMI-PROJECTS\i2p_Nadine_Robot\development\i2p_perception\i2p_vision_processing\build\CMakeFiles\e7a140ce4ebfcfc8546ba8646fee5b0a\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D800F60A-4C10-4A7E-A186-5EF14542FDDF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
