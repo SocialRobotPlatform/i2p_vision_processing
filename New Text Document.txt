@@ -1,0 +1,2 @@
+BodyBasics-D2D_V.12.1 - Combined skeleton and face basics together to reduce memory
+BodyBasics-D2D_V.12.2 - Added gender to the face recognition

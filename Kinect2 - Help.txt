@@ -1,0 +1,12 @@
+
+
+1. Build events -> Post build event -> command line
+
+C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase
+xcopy "$(KINECTSDK20_DIR)Redist\Face\x86\NuiDatabase" "$(TargetDir)NuiDatabase" /e /y /i /r
+xcopy "$(KINECTSDK20_DIR)Redist\Face\x86\Kinect20.Face.dll" "$(TargetDir)" /c /y
+
+2. General -> Use of MFC -> Use MFC in a Shared DLL
+
+
+
