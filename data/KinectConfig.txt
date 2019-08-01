@@ -1,0 +1,10 @@
+512 424			// size
+0.1 2.0			// depth range
+366.0 366.0		// fc
+252.0 204.0		// cc
+0.0 0.0 0.0 0.0 0.0	// kc
+0.0				// alpha_c
+10				// anchor number
+0.12				// feature radius
+36.6 10.0 10.0		// RF camera parameters
+..\data\forest_Kinect2.txt		// RF file name
