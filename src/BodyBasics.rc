@@ -1,0 +1,215 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_APP                 ICON                    "app.ico"
+IDI_APP1                ICON                    "app1.ico"
+IDI_APP3                ICON                    "app3.ico"
+IDI_APP4                ICON                    "app4.ico"
+IDI_APP2                ICON                    "app2.ico"
+IDI_APP5                ICON                    "app5.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_APP DIALOGEX 0, 0, 512, 436
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTROLPARENT | WS_EX_APPWINDOW
+CAPTION "Body Basics"
+CLASS "BodyBasicsAppDlgWndClass"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_VIDEOVIEW,"Static",SS_BLACKFRAME,0,0,512,424
+    LTEXT           "",IDC_STATUS,0,425,512,11,SS_SUNKEN
+END
+
+IDD_APP1 DIALOGEX 0, 0, 531, 436
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTROLPARENT | WS_EX_APPWINDOW
+CAPTION "Face Recognition"
+CLASS "FaceBasicsAppDlgWndClass"
+FONT 7, "Comic Sans MS", 700, 1, 0x0
+BEGIN
+    CONTROL         "",IDC_VIDEOVIEW,"Static",SS_ETCHEDFRAME,0,0,530,390
+    LTEXT           "",IDC_STATUS,0,425,512,11,SS_SUNKEN
+    PUSHBUTTON      "OK",IDC_BUTTON1,460,391,63,15
+    EDITTEXT        IDC_EDIT1,235,393,116,20,ES_AUTOHSCROLL | ES_OEMCONVERT
+    LTEXT           "PLEASE WAIT.. WE ARE CAPTURING YOUR FACE",IDC_STATIC4,5,392,192,22
+    PUSHBUTTON      "CANCEL",IDC_BUTTON3,459,407,63,15
+    EDITTEXT        IDC_EDIT2,403,396,40,18,ES_AUTOHSCROLL
+    LTEXT           "Gender:",IDC_STATIC_GENDER,375,396,28,17
+    LTEXT           "Name:",IDC_STATIC_NAME,205,395,30,16
+END
+
+IDD_APP3 DIALOGEX 0, 0, 700, 370
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTROLPARENT | WS_EX_APPWINDOW
+CAPTION "Audio Basics (IStream)"
+CLASS "AudioBasicsAppDlgWndClass"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_AUDIOVIEW,"Static",SS_BLACKFRAME,0,0,700,350
+    LTEXT           "",IDC_STATUS,0,355,700,12,SS_SUNKEN,WS_EX_CLIENTEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_APP, DIALOG
+    BEGIN
+    END
+
+    IDD_APP1, DIALOG
+    BEGIN
+        RIGHTMARGIN, 530
+        BOTTOMMARGIN, 422
+    END
+
+    IDD_APP3, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Singapore) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENE)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_SINGAPORE
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FACE DIALOGEX 0, 0, 234, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "FACE RECOGNITION"
+CLASS "faceDlg"
+FONT 10, "Comic Sans MS", 700, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,135,66,50,14
+    GROUPBOX        "",IDC_STATIC1,20,16,181,81
+    EDITTEXT        IDC_STATIC,30,59,152,14,ES_AUTOHSCROLL
+    LTEXT           "Please enter your name:",IDC_STATIC4,33,31,123,12
+    LTEXT           "Please Wait.. We are capturing your face...",IDC_STATIC3,33,48,172,12
+END
+
+IDD_ABOUTDIALOG DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CREDITS"
+CLASS "aboutDlg"
+FONT 11, "Poor Richard", 400, 0, 0x0
+BEGIN
+    LTEXT           "This software belongs to the Institute for Media Innovation, Nanyang Technological University. \n The main developers are \n Rubha Shri Narayanan, \n Ren Jianfeng, \n Aryel Beck, \n Zhang Zhijun \n and Microsoft Kinect SDK",-1,22,18,135,88
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_FACE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 227
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 114
+    END
+
+    IDD_ABOUTDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (Singapore) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
